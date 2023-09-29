@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent {
+    height: 350px;
+    width: 600px;
+    margin: 40px 27%;
+    border-radius: 10px;
+    background-image: url(/TimeDate/bg.jpg);
+    /* box-shadow: 5px 7px 50px black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.timeDate {
+    margin: 20px;
+    font-size: 1.3em;
+    font-weight: 650;
+    text-align: center;
+}
+
+.timeZone,
+.dayZone,
+.dateZone {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 20px 20px 20px 80px;
+}
+
+#time,
+#day,
+#date {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
+    padding: 0px;
+    color: blue;
+}
+
+#getDayDateTime {
+    margin: 10px 30%;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 43%;
+}
